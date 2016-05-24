@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>湘雅大数据BI系统</title>
+<link rel="shortcut icon" href="favicon.ico"> 
+<link type="text/css" rel="stylesheet" href="../public/css/reset.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<!--javascript 开发时移至</body>前-->
+<script type="text/javascript" src="../public/js/jquery.min.js"></script>
+<script type="text/javascript" src="../public/js/public.min.js"></script>
+<script type="text/javascript" src="../public/js/accordion.min.js"></script>  <!-- 首页左侧导航展开收缩 -->
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/empi02.js"></script>
+</head>
+
+<body>
+<!-- header -->
+<div class="header clearfix">
+	<div class="logo left">
+		<a href="../retrieve/index.html" title="湘雅大数据BI系统" alt="湘雅大数据BI系统"></a>
+	</div>
+	<div class="right">
+		<div class="report-center left"><a href="../ucenter/report-center.html" class="icon" title="报表中心"></a></div>
+		<div class="collect left"><a href="../ucenter/collect.html" class="icon"><em>12</em></a></div>
+		<div class="person-info left">
+			<a class="nic-name" href="#"><img src="../public/images/user_img.png" width="32" height="32"></img>aishuohua<em class="arrow icon"></em></a>
+			<!--<ul class="dis-no">
+				<li><a href="#">设置</a></li>
+				<li><a href="#">退出</a></li>
+			</ul>-->
+		</div>
+	</div>
+</div>
+<div class="nav">
+	<ul>
+		<li class="cur"><a href="index.html"><em class="icon icon2"></em>智能检索</a></li>
+		<li><a href="../module/index.html"><em class="icon icon3"></em>报表模板管理</a></li>
+		<li><a href="../content/index.html"><em class="icon icon4"></em>报表内容管理</a></li>
+		<li><a href="../priority/index.html"><em class="icon icon5"></em>报表权限管理</a></li>
+		<!-- <li><a href="#"><em class="icon icon6"></em>用户设置</a></li> -->
+	</ul>
+</div>
+<!-- header -->
+<div class="main clearfix mb15">
+	<div class="left leftsidebar">
+		<h2 class="title">病历</h2>
+		<h1>病案首例</h1>
+		<div>
+			<ul class="navmenu-v clearfix">
+				<li><a href="" id="empiUrl" class="time">2016-04-11 11:30:30</a></li>
+			</ul>
+		</div>
+		<h1>诊断</h1>
+		<div>
+			<ul class="navmenu-v clearfix">
+				<li><a href="javascript:;">入院诊断</a></li>
+				<li><a href="javascript:;">门诊诊断</a></li>
+				<li><a href="javascript:;">出院诊断</a></li>
+			</ul>
+		</div>
+		<h1>病程</h1>
+		<div>
+			<ul class="navmenu-v clearfix">
+				<li><a href="javascript:;">入院记录</a></li>
+				<li><a href="javascript:;">病程记录</a></li>
+				<li class="sub"><a href="javascript:;">手术<em class="icon"></em></a>
+					<ul>
+						<li><a href="javascript:;">术前讨论</a></li>
+						<li><a href="javascript:;">术前小结</a></li>
+						<li><a href="javascript:;">手术记录</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:;">知情文件</a></li>
+				<li><a href="javascript:;">其他记录</a></li>
+				<li><a href="javascript:;">出院小结</a></li>
+				<li><a href="javascript:;">出院记录</a></li>
+			</ul>
+		</div>
+		<h1>医嘱记录</h1>
+		<div>
+			<ul class="navmenu-v clearfix">
+
+			</ul>
+		</div>
+		<h1>检查结果记录</h1>
+		<div>
+			<ul class="navmenu-v clearfix">
+				<li><a href="javascript:;">实验室检查</a></li>
+				<li><a href="javascript:;">X射线检查</a></li>
+				<li class="sub"><a href="javascript:;">CT检查<em class="icon"></em></a>
+					<ul class="time">
+						<li><a href="javascript:void(0);" id="ctUrl">2015-04-11 11:31:20</a></li>
+					</ul>
+				</li>
+				<li><a href="javascript:;">心电图检查</a></li>
+				<li><a href="javascript:;">超声检查</a></li>
+				<li><a href="javascript:;">DSA检查</a></li>
+				<li><a href="javascript:;">病理检查</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+		<div class="main_content">
+			<div class="column-title t-c mt30"><h2 class="f25">中南大学湘雅三医院</h2><h3 class="f16 mt10">CT检查报告</h3></div>
+			<div class="row">
+				<table width="90%" style="margin: 0 auto;">
+					<tbody>
+						<tr>
+							<td>扫描日期<span>2016-04-11</span></td><td>CT号<span>CT00032799</span></td><td>住院号<span>37</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="row">
+				<table width="90%" style="margin: 0 auto;">
+					<tbody id="pTable">
+						<tr>
+							<td>姓名<span class="w65"</span></td><td>性别<span class="w65"></span></td><td>年龄<span class="w65"></span></td><td>病区<span class="w65">16病区</span></td><td>房号<span class="w65">56</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="row t-c">
+				<img src="images/empi02.png" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<p class="pos-r">
+		<a rel="nofollow" style="text-decoration:none;" target="_blank" href="http://hugedata.com.cn/index/introduction.jsp">关于hugedata</a>|
+		<a rel="nofollow" style="text-decoration:none;" target="_blank" href="http://hugedata.com.cn/index/contact.jsp">联系我们</a>|
+		<a target="_blank" href="http://b.qq.com/webc.htm?new=0&amp;sid=800040626&amp;eid=2188z8p8p8p8Q8p8x8K8x&amp;o=www.webxmf.com&amp;q=7" style="display:inline-block;text-decoration:none;">  在线客服：<img src="http://im.bizapp.qq.com:8000/zx_qq.gif" style="vertical-align:middle;"></a>
+	</p>
+	<p>Copyright (C)2012-2018. Hugedata All Rights Reserved.  | ICP证： 苏ICP备15024893号-1</p>
+</div>
+<script type="text/javascript">
+	$(".leftsidebar").accordion();   //左侧导航
+	$(".leftsidebar").css('minHeight',$(".content").height());
+</script>
+</body>
+</html>

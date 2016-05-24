@@ -1,0 +1,52 @@
+@charset "utf-8";.main_content{padding:20px;}
+.row{margin-bottom:20px;overflow:hidden;}
+.page{margin:23px;}
+/*搜索区*/
+.filter-box{height:34px;line-height:34px;padding:22px 0;}
+.filter-box label{color:#555;display:inline-block;float:left;font-size:14px;margin-left:20px;margin-right:10px;}
+.filter-box label:first-child{margin-left:0px;}
+.filter-box span.line{background-color:#dbdad8;display:inline-block;height:34px;width:1px;float:left;}
+.filter-box .btn{cursor:pointer;float:left;margin:0 20px;}
+.filter-box .btn:hover{background-color:#1792cd;color:#FFF;border-color:#1792cd;}
+/*列表*/
+.task-list{padding:0;}
+.task-list .table{width:100%;table-layout:fixed;font-size:14px;}
+.task-list th,.task-list td{word-break:break-all;padding:0 20px;height:40px;line-height:40px;}
+.task-list th{background-color:#f4f4f4;border-bottom:1px solid #dbdad8;font-weight:normal;}
+.task-list td{border-bottom:1px solid #edecea;color:#555;}
+.task-list tr:nth-child(even){background-color:#f8f8f8;}
+.task-list .op{background:url(../images/task-op-icons.png) no-repeat;display:inline-block;height:25px;margin-left:10px;vertical-align:middle;width:25px;}
+.task-list .pause{background-position:-33px -1px;}
+.task-list .del{background-position:-68px 0;}
+.area{padding:0 15px 15px;}
+.area .title{line-height:45px;font-size:16px;margin-bottom:10px;}
+.zl_wy_sc{color:#555;font-size:14px;margin-bottom:10px;margin-top:10px;text-align:center;}
+/*新增-查询条件管理页面-start*/
+.tab-nav{border:1px solid #ddd;border-radius:2px;}
+.tab-nav .tab-nav-left{float:left;width:130px;}
+.tab-nav .tab-nav-left li{cursor:pointer;font-size:14px;height:45px;line-height:45px;text-align:center;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;background:#f3f3f3;}
+.tab-nav .tab-nav-left li:last-child{border-bottom:none;}
+.tab-nav .tab-nav-left li.activeTab{border-right:none;background:#fff;}
+.tab-nav .tab-nav-con{padding:15px 40px 15px 170px;}
+.tab-nav .tab-nav-con ul{background:url(../images/ulbg.png) repeat;line-height:46px;overflow:hidden;}
+.tab-nav .tab-nav-con li{float:left;font-size:14px;color:#555;margin-right:30px;display:inline-block;}
+.tab-nav .tab-nav-con li input{vertical-align:middle;margin-right:10px;}
+.tab-list,.tab-group,.tab-result{border:1px solid #dbdad8;margin-top:20px;border-radius:2px;font-size:14px;color:#555;}
+.tab-list tr{border-bottom:1px solid #edecea;}
+.tab-list tr:nth-child(odd){background-color:#fbfbfb;}
+.tab-list tr:last-child{border-bottom:none;}
+.tab-list td{height:50px;line-height:50px;padding-left:20px;}
+.tab-group{padding:20px;}
+.tab-group input{color:#555;}
+.tab-result{padding:20px 20px 6px;}
+.tab-result li{background-color:#e2f0fb;border-radius:2px;float:left;height:40px;line-height:40px;margin:0 10px 14px 0;padding:0 60px 0 12px;position:relative;}
+.tab-result li em.del{background:url(../images/task-op-icons.png) no-repeat -68px 0;cursor:pointer;display:inline-block;height:25px;position:absolute;right:12px;top:9px;width:25px;}
+/*模块设置页*/
+.set-list{width:350px;margin:30px auto;font-size:14px;}
+.set-list td{display:inline-block;margin-bottom:15px;}
+.filter-list li{height:34px;line-height:34px;margin-top:15px;position:relative;}
+.filter-list li label{color:#555;float:left;margin-top:6px;width:60px;}
+.filter-list .lt-select li{line-height:32px;height:32px;margin-top:0;}
+.filter-list .masks{background:rgba(0,0,0,.04);height:34px;left:92px;position:absolute;width:272px;}
+
+.btn-small {line-height: 20px;}
