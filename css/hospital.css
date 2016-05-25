@@ -1,0 +1,120 @@
+* {
+    font-family: "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    font-size: 14px;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none !important;
+}
+
+.navbar-default {
+    border: none;
+    border-top: 5px solid #156796;
+    border-bottom: 1px solid #e1e1e1;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 6px 15px;
+    font-size: 20px;
+    color: #156796 !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+    display: inline;
+}
+
+.nav-icon {
+    background: url(../img/icons.png) no-repeat;
+}
+
+.nav-block {
+    background-color: #eee;
+    border-bottom: 1px solid #d3d3d3;
+    height: 100px;
+}
+
+.nav-block ul {
+    margin: 0;
+}
+
+.nav-block li {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    float: left;
+    height: 80px;
+    margin: 10px 6px 0;
+    text-align: center;
+    width: 100px;
+}
+
+.nav-block li a {
+    color: #333;
+    display: block;
+    height: 100%;
+    padding-top: 12px;
+}
+
+.nav-block .nav-icon {
+    display: block;
+    height: 35px;
+    margin: 0 auto 3px;
+    width: 35px;
+}
+
+.nav-block .icon1 {
+    background-position: -1px -43px;
+}
+
+.nav-block .icon2 {
+    background-position: 0 -84px;
+}
+
+.nav-block .icon3 {
+    background-position: 1px -120px;
+}
+
+.nav-block .icon4 {
+    background-position: 0 -160px;
+}
+
+.nav-block .icon5 {
+    background-position: 0 -197px;
+}
+
+.nav-block .icon6 {
+    background-position: 0 -240px;
+}
+
+.nav-block li a:hover .icon1, .nav-block li.active .icon1 {
+    background-position: -34px -43px;
+}
+
+.nav-block li a:hover .icon2, .nav-block li.active .icon2 {
+    background-position: -34px -84px;
+}
+
+.nav-block li a:hover .icon3, .nav-block li.active .icon3 {
+    background-position: -33px -121px;
+}
+
+.nav-block li a:hover .icon4, .nav-block li.active .icon4 {
+    background-position: -34px -160px;
+}
+
+.nav-block li a:hover .icon5, .nav-block li.active .icon5 {
+    background-position: -33px -196px;
+}
+
+.nav-block li a:hover .icon6, .nav-block li.active .icon6 {
+    background-position: -34px -240px;
+}
+
+.nav-block li a:hover, .nav-block li.active a {
+    color: #fff;
+    background-color: #1792cd;
+    border-color: #1173a2;
+}
