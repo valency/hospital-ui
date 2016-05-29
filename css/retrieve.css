@@ -1,0 +1,63 @@
+.checkbox-inline {
+    margin-left: 20px;
+}
+
+.filter-bg {
+    padding: 17px 30px;
+    background-color: #f4f4f4;
+}
+
+.filter-box {
+    height: 64px;
+    line-height: 34px;
+}
+
+.filter-box label {
+    margin-left: 20px;
+}
+
+.filter-box input.time {
+    background: url(../img/time.png) no-repeat 97% #FFF;
+    cursor: pointer;
+}
+
+.filter-area {
+    margin: 25px 0;
+}
+
+.filter-area .tab {
+    margin-bottom: -1px;
+}
+
+.filter-area .tab a {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 117px;
+    margin-right: -1px;
+    font-size: 14px;
+    color: #555;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+.filter-area .tab a.on {
+    background-color: #FFF;
+    border-bottom-color: #FFF;
+}
+
+.filter-area .con {
+    border: 1px solid #ddd;
+    padding: 25px 20px;
+}
+
+.search-area {
+    width: 575px;
+    margin: 15px auto 30px;
+    height: 42px;
+}
+
+.main {
+    margin: 0 20px;
+}

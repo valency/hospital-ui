@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="lib/jquery-ui-1.11.4/jquery-ui.min.css"/>
 <link rel="stylesheet" href="lib/bootstrap-3.3.6/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="lib/font-awesome-4.6.3/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="lib/daterangepicker-2.1.20/daterangepicker.css"/>
+<link rel="stylesheet" href="lib/datatables-1.10.12/media/css/dataTables.bootstrap.min.css"/>
 
 <link rel="stylesheet" href="css/hospital.css"/>
 
@@ -16,21 +18,12 @@
 <script src="lib/js-cookie-2.0.1/js.cookie.js"></script>
 <script src="lib/crypto-js-3.1.2/rollups/md5.js"></script>
 <script src="lib/bootbox-4.4.0/bootbox.min.js"></script>
+<script src="lib/daterangepicker-2.1.20/moment.min.js"></script>
+<script src="lib/daterangepicker-2.1.20/daterangepicker.js"></script>
+<script src="lib/datatables-1.10.12/media/js/jquery.dataTables.min.js"></script>
+<script src="lib/datatables-1.10.12/media/js/dataTables.bootstrap.min.js"></script>
 
 <script src="js/common.js"></script>
 <script src="js/settings.js"></script>
 <script src="js/auth.js"></script>
-
-
-<!--<script type="text/javascript" src="public/js/jquery.min.js"></script>-->
-<!--<script type="text/javascript" src="public/js/public.min.js"></script>-->
-<!--<script type="text/javascript" src="public/js/pop-window.js"></script>-->
-<!--<script type="text/javascript" src="public/js/datepicker.js"></script>-->
-<!--<script type="text/javascript" src="public/js/datepicker-zh-CN.js"></script>-->
-<!---->
-<!--<script type="text/javascript" src="js/reports.js"></script>-->
-<!--<script type="text/javascript" src="js/scripts.js"></script>-->
-
-
-
 

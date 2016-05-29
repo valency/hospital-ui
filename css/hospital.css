@@ -118,3 +118,24 @@ a, a:hover, a:visited {
     background-color: #1792cd;
     border-color: #1173a2;
 }
+
+.footer {
+    border-top: 1px solid #ddd;
+    height: 50px;
+    padding: 25px 0;
+}
+
+.footer p {
+    text-align: center;
+    color: #777777;
+    line-height: 22px;
+}
+
+.footer p a {
+    margin: 0 10px;
+    color: #777777;
+}
+
+.footer p a:hover {
+    text-decoration: underline;
+}
