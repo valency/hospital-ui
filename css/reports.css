@@ -1,0 +1,59 @@
+.search-area {
+    /*width: 575px;*/
+    margin: 20px auto 50px;
+    height: 20px;
+}
+
+.op {
+    background: url(../img/task-op-icons.png) no-repeat;
+    display: inline-block;
+    height: 25px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.del {
+    background-position: -68px 0;
+}
+
+.main {
+    margin: 0 20px;
+}
+
+.btn-blue {
+    background-color: #1792cd;
+    color: #FFF!important;
+    border-color: #1792cd;
+}
+.btn {
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 20px;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    border: 1px solid #dbdad8;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #1792cd;
+    color: #FFF;
+    border-color: #1792cd;
+}
+
+.line {
+    background-color: #dbdad8;
+    display: inline-block;
+    height: 34px;
+    width: 1px;
+    /*margin-top: 10px;*/
+    /*padding-top: 10px;*/
+    /*float: left;*/
+    margin-right: 10px;
+}
+
