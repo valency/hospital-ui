@@ -40,7 +40,8 @@
     font-size: 14px;
     border: 1px solid #dbdad8;
     border-radius: 2px;
-    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
 }
 
 .btn:hover {
@@ -52,11 +53,12 @@
 .line {
     background-color: #dbdad8;
     display: inline-block;
-    height: 34px;
+    height: 32px;
     width: 1px;
-    /*margin-top: 10px;*/
-    /*padding-top: 10px;*/
-    /*float: left;*/
-    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
 }
 
+.search-area label {
+    margin-left: 20px;
+}

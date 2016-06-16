@@ -2,9 +2,9 @@
 <html>
 <head>
     <?php include_once "lib.php"; ?>
-    <title>湘雅医疗大数据平台 - 报表内容管理</title>
+    <title>湘雅医疗大数据平台 - 报表模板管理</title>
     <link rel="stylesheet" href="css/reports.css"/>
-    <script src="js/reports.js"></script>
+    <script src="js/reports-module.js"></script>
 </head>
 <body>
 <?php include_once "header.php"; ?>
@@ -31,27 +31,11 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="search-room-range">分类</label>
-                                    <select id="search-room-range" class="form-control">
-                                        <option value="0">全部</option>
-                                        <option value="1">常用</option>
-                                        <option value="2">心脏</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-<!--                                    <div height="30px">-->
                                     <a class="btn" id="searchBtn">查询</a>
                                     <div class="line"></div>
                                     <a class="btn btn-blue add" href="reports-add.php">添加</a>
-
-<!--                                    </div>-->
                                 </div>
-<!--                                <div class="col-xs-8">-->
-<!---->
-<!--                                </div>-->
-<!--                        </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
+
 
                      </form>
                 </div>
@@ -59,9 +43,9 @@
         <table class="table table-striped" id="report-content-table">
             <thead>
                 <tr>
-                    <th class="t-l">报表名称</th>
-                    <th class="t-l">所属分类</th>
-                    <th class="t-l">所属科室</th>
+                    <th class="t-l">模板名称</th>
+                    <th class="t-l">备注</th>
+                    <th class="t-l">模板类型</th>
                     <th class="t-l">创建时间</th>
                     <th class="t-r">操作</th>
                 </tr>

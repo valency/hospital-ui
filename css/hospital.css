@@ -139,3 +139,15 @@ a, a:hover, a:visited {
 .footer p a:hover {
     text-decoration: underline;
 }
+
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+ul,ol{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+.w20{width:20px;}
+.w120{width:120px;}
+.w160{width:160px;}
+.w200{width:200px;}
+.w250{width:250px;}
+.w350{width:350px;}

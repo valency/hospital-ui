@@ -11,7 +11,7 @@
 <!-- header -->
 <div class="main clearfix">
     <div class="filter-area">
-        <div class="tab"><a href="retrieve.php" class="on">快速检索</a><a href="people.php">我的病人</a><a href="reports.php">高级检索</a></div>
+        <div class="tab"><a href="retrieve.php" class="on">快速检索</a><a href="people.php">我的病人</a><a href="advanced-retrieve.php">高级检索</a></div>
         <div class="con">
             <div class="search-area">
                 <div class="form-inline">
@@ -26,7 +26,7 @@
                             <option value="7">检查报告</option>
                         </select>
                         <input class="form-control" placeholder="快速检索只支持输入一个具体条件"/>
-                        <button class="btn btn-primary"><i class="fa fa-search"></i></button>
+                        <button class="btn btn-blue"><i class="fa fa-search"></i></button>
                         <label class="checkbox-inline"><input type="checkbox"> 去重</label>
                     </div>
                 </div>
@@ -36,10 +36,14 @@
                     <div class="form-group">
                         <label for="search-time-range">时间范围</label>
                         <input id="search-time-range" class="form-control time"/>
+                    </div>
+                    <div class="form-group">
                         <label for="search-data-range">数据范围</label>
                         <select id="search-data-range" class="form-control">
                             <option value="1">湘雅一院</option>
                         </select>
+                    </div>
+                    <div class="form-group">
                         <label for="search-room-range">科室选择</label>
                         <select id="search-room-range" class="form-control">
                             <option value="0">全部</option>

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 	//check_login();
-	$(".nav-block li:eq(2)").addClass("active");
+	$(".nav-block li:eq(1)").addClass("active");
 	$('#create-time').daterangepicker({
 			singleDatePicker: true,
 			showDropdowns: true

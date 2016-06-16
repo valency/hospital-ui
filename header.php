@@ -27,7 +27,7 @@
 <div class="nav-block">
     <ul>
         <li><a href="retrieve.php"><em class="nav-icon icon2"></em>智能检索</a></li>
-        <li><a href="modules.php"><em class="nav-icon icon3"></em>报表模板管理</a></li>
+        <li><a href="reports-module-index.php"><em class="nav-icon icon3"></em>报表模板管理</a></li>
         <li><a href="reports.php"><em class="nav-icon icon4"></em>报表内容管理</a></li>
         <li><a href="priority.php"><em class="nav-icon icon5"></em>报表权限管理</a></li>
     </ul>

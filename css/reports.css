@@ -38,26 +38,29 @@
     text-align: center;
     color: #555;
     font-size: 14px;
+    float: left;
     border: 1px solid #dbdad8;
     border-radius: 2px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .btn:hover {
     background-color: #1792cd;
     color: #FFF;
     border-color: #1792cd;
+    float: left;
 }
 
 .line {
     background-color: #dbdad8;
     display: inline-block;
-    height: 34px;
+    height: 32px;
     width: 1px;
+    /*position: relative;*/
     /*margin-top: 10px;*/
     /*padding-top: 10px;*/
-    /*float: left;*/
-    margin-right: 10px;
+    float: left;
+    margin-left: 10px;
 }
 
 /*ËÑË÷Çø*/
@@ -118,6 +121,10 @@ ul, ol {
 }
 .mb15 {
     margin-bottom: 15px;
+}
+
+.search-area label {
+    margin-left: 20px;
 }
 /*body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}*/
 /*body,button,input,select,textarea{font:12px/1.5 'Microsoft Yahei',tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}*/

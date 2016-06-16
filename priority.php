@@ -11,21 +11,27 @@
 <!-- header -->
 
 <div class="main clearfix">
-            <div class="form-inline">
-                <div class="search-area">
-                        <div class="form-group">
-                            <label>名称</label><input type="text" class="form-control" id="searchName">
-                            <label>创建时间</label> <input id="create-time" class="form-control time"/>
-                            <label for="search-room-range">分配类型</label>
-                            <select id="search-room-range" class="form-control">
-                                <option value="0">全部</option>
-                                <option value="1">角色</option>
-                                <option value="2">个人</option>
-                            </select>
-                            <a class="btn" href="javascript:doSearch()">查询</a><span class="line"></span><a class="btn btn-blue add" href="javascript:;" data-url="ajax/add.html">添加</a>
-                        </div>
-                </div>
-            </div>
+    <div class="search-area">
+            <form class="form-inline">
+                    <div class="form-group">
+                        <label>名称：</label><input type="text" class="form-control" id="searchName">
+                    </div>
+                    <div class="form-group">
+                        <label>创建时间：</label> <input id="create-time" class="form-control time"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="search-room-range">分配类型：</label>
+                        <select id="search-room-range" class="form-control">
+                            <option value="0">全部</option>
+                            <option value="1">角色</option>
+                            <option value="2">个人</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <a class="btn" href="javascript:doSearch()">查询</a><span class="line"></span><a class="btn btn-blue add" href="javascript:;" data-url="ajax/add.html">添加</a>
+                    </div>
+            </form>
+        </div>
 	<div>
         <table class="table table-striped" id="priority-table">
             <thead>
