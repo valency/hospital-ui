@@ -22,6 +22,7 @@
 <script src="lib/daterangepicker-2.1.20/daterangepicker.js"></script>
 <script src="lib/datatables-1.10.12/media/js/jquery.dataTables.min.js"></script>
 <script src="lib/datatables-1.10.12/media/js/dataTables.bootstrap.min.js"></script>
+<script src="lib/pop-window/pop-window.js"></script>
 
 <script src="js/common.js"></script>
 <script src="js/settings.js"></script>

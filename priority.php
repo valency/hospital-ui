@@ -11,12 +11,12 @@
 <!-- header -->
 
 <div class="main clearfix">
-            <div>
+            <div class="form-inline">
                 <div class="search-area">
                         <div class="form-group">
                             <label>名称</label><input type="text" class="form-control" id="searchName">
                             <label>创建时间</label> <input id="create-time" class="form-control time"/>
-                            <label for="search-room-range">科室选择</label>
+                            <label for="search-room-range">分配类型</label>
                             <select id="search-room-range" class="form-control">
                                 <option value="0">全部</option>
                                 <option value="1">角色</option>

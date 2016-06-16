@@ -11,66 +11,92 @@
 <!-- header -->
 
 <div class="main clearfix">
-            <div class="form-inline">
-                <div class="search-area">
-                        <div class="form-group">
-                            <label>报表名称</label><input type="text" class="form-control" id="report-name">
-                            <label>创建时间</label> <input id="create-time" class="form-control time"/>
-                            <label for="search-room-range">科室选择</label>
-                            <select id="search-room-range" class="form-control">
-                                <option value="0">全部</option>
-                                <option value="1">皮肤科</option>
-                                <option value="2">心外科</option>
-                            </select>
-                            <label for="search-room-range">分类</label>
-                            <select id="search-room-range" class="form-control">
-                                <option value="0">全部</option>
-                                <option value="1">常用</option>
-                                <option value="2">心脏</option>
-                            </select>
-
-                            <a class="btn" id="searchBtn">查询</a><span class="line"></span><a class="btn btn-blue add" href="javascript:;" data-url="ajax/add.html">添加</a>
-                        </div>
-                </div>
-            </div>
-	<div class="task-list">
-        <table class="table table-striped" id="report-content-table">
-            <thead>
-                <tr>
-                    <th class="t-l">报表名称</th>
-                    <th class="t-l">所属分类</th>
-                    <th class="t-l">所属科室</th>
-                    <th class="t-l">创建时间</th>
-                    <th class="t-r">操作</th>
-                </tr>
-			</thead>
-			<tbody id="totalTbody">
-                   <!--      <tr id="task-item-1" data-id="1">
-                            <td>疾病趋势分析</td>
-                            <td>常见</td>
-                            <td>皮肤科</td>
-                            <td>2016-04-14</td>
-                            <td class="t-r">
-                                <a class="op js-detail" href="javascript:;" data-url="ajax/view.html" title="报表预览"></a>
-                                <a class="op pause" href="#"></a>
-                                <a class="op del js-del" href="javascript:;"></a>
-                            </td>
-                        </tr>
-                        <tr id="task-item-2" data-id="2">
-                            <td>某疾病与性别,高血脂,高血尿研究</td>
-                            <td>常见</td>
-                            <td>皮肤科</td>
-                            <td>2016-04-14</td>
-                            <td class="t-r">
-                                <a class="op js-detail" href="javascript:;" data-url="ajax/view2.html"  title="报表预览"></a>
-                                <a class="op pause" href="#"></a>
-                                <a class="op del js-del" href="javascript:;"></a>
-                            </td>
-                        </tr> -->
-
-                    </tbody>
-		</table>
+	<div class="list-crumb">
+		<ul class="breadcrumb">
+			<li><a href="reports.php">报表内容管理</a> <span class="divider"></span></li>
+			<li class="active">新增报表内容</li>
+		</ul>
 	</div>
+<!--   <div class="list-crumb"><a href="reports.php">报表内容管理</a> &gt; <em>新增报表内容</em></div>-->
+   	<div class="column-title"><h4 class="f18">新增报表内容</h4></div>
+   	<div class="block clearfix nopadding">
+   		<div class="c-info-box">
+   			<div class="mb15"><h4 class="f16 c-555">报表基本信息</h4></div>
+<!--   			<div class="filter-box filter-bg">-->
+
+   			<div class="filter-box filter-bg">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="row">
+							<div class="col-xs-6"><label>报表名称</label><input id="reportName" type="text" class="form-control w200" /></div>
+							<div class="col-xs-6"><label>报表分类</label>
+								<select id="search-room-range" class="form-control w200">
+									<option value="0">常用</option>
+									<option value="1">心血管</option>
+									<option value="2">耳鼻喉</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-6"><label>备注信息</label><input id="remarkInfo" type="text" class="form-control w200" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+   			<!--
+   			    <table border="0" cellpadding="0" cellspacing="0" width="auto">
+                    <tbody id="allTbody">
+                            <tr>
+                                <td>
+                                  <label>报表名称</label><input id="reportName" type="text" class="form-control" />
+                                </td>
+                                <td>
+								</td>
+                                <td>
+                                	<label>报表分类</label>
+                                    <select id="search-room-range" class="form-control">
+                                       <option value="0">常用</option>
+                                       <option value="1">心血管</option>
+                                       <option value="2">耳鼻喉</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <label>备注信息</label><input id="remarkInfo" type="text" class="form-control" />
+                                </td>
+                                <td>
+                                   </td>
+                            </tr>
+                    </tbody>
+   			    </table>
+   			</div> -->
+
+   			<div class="mb15 mt30"><h4 class="f16 c-555">报表内容</h4></div>
+   			<div class="c-info c-info-init">
+   				<a href="javascript:;" class="btn btn-blue">添加模块</a>
+   			</div>
+   		</div>
+   		<div class="right c-add-list">
+   			<div class="c-set-box">
+   				<table border="0" cellpadding="0" cellspacing="0">
+   					<tbody id="allTbody">
+   					<tr>
+   						<td>
+   						    <select id="search-room-range" class="form-control">
+                                <option value="某疾病患者中高血脂人数占比分析">某疾病患者中高血脂人数占比分析</option>
+                                <option value="某疾病患者中高血尿酸人数占比分析">某疾病患者中高血尿酸人数占比分析</option>
+                                <option value="城镇农村基本死亡率TOP10">城镇农村基本死亡率TOP10</option>
+                            </select>
+   						</td>
+   						<td><a href="javascript:;" class="add">新增一列</a></td>
+   					</tr>
+   					</tbody>
+   				</table>
+   				<div class="mt10 mb15"><a id="saveTotal" href="javascript:void(0);" class="btn btn-blue btn-small">保存</a><a href="javascript:;" class="btn btn-gray btn-small ml10 cancel">取消</a></div>
+   			</div>
+   		</div>
+   	</div>
 </div>
 
 

@@ -1,4 +1,4 @@
-API_SERVER = "/api/hospital/";
+API_SERVER = "http://221.6.207.215/api/hospital/";
 
 DT_LANG = {
     "sProcessing": "处理中...",

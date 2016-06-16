@@ -17,8 +17,11 @@
     background-position: -68px 0;
 }
 
-.main {
-    margin: 0 20px;
+.main{
+    background-color: #fff;
+    padding:0 15px;
+    min-width:1120px;
+    min-height: 687px;
 }
 
 .btn-blue {
