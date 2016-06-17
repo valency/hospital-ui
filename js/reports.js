@@ -76,6 +76,7 @@ $(document).ready(function () {
 				html += "<td>"+item.depart+"</td>";
 				html += "<td>"+item.time+"</td>";
 				html += "<td class='t-r'><a class='op js-detail' href='javascript:;' data-url='"+item.ids+"'  title='报表预览'></a>";
+				html += "<a class='op mod' href='javascript:;'></a>";
 				html += "<a class='op del js-del' href='javascript:;'></a>";
 				html += "</td>";
 				html += "</tr>";
@@ -182,6 +183,20 @@ $(document).ready(function () {
 		},'html');
 	});
 
+	$("#saveTotal").on("click",function(){
+		var types = "";
+		$("#allTbody .lt-select p").each(function(){
+			types += $(this).attr("type")+",";
+
+		})
+
+		window.localStorage.setItem("reportName", $("#reportName").val());
+		window.localStorage.setItem("remarkInfo", $("#remarkInfo").val());
+
+		var typeArray = types.substring(0,types.length-1);
+		//window.location.href="add2.html?type="+encodeURIComponent(typeArray)+"";
+		window.location.href="add2.html?type="+typeArray+"";
+	})
 
 });
 

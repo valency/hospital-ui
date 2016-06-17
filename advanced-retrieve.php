@@ -4,21 +4,25 @@
     <?php include_once "lib.php"; ?>
     <title>湘雅医疗大数据平台 - 智能检索</title>
     <link rel="stylesheet" href="css/retrieve.css"/>
-    <script src="js/advanced-priority.js"></script>
+    <script src="js/advanced-retrieve.js"></script>
 </head>
 <body>
 <?php include_once "header.php"; ?>
 <div class="main clearfix">
-    <div class="list-crumb">
-        <ul class="breadcrumb">
-            <li><a href="retrieve.php">智能检索</a> <span class="divider"></span></li>
-            <li class="active">新增-查询条件管理页面</li>
-        </ul>
-    </div>
-    <div class="column-title"><h2 class="f18">新增-查询条件管理页面</h2></div>
-    <div class="block">
-        <div class="mb15"><h2 class="f16 c-555">请选择需要查询条件</h2></div>
-        <div class="tab-nav clearfix">
+<!--    <div class="list-crumb">-->
+<!--        <ul class="breadcrumb">-->
+<!--            <li><a href="retrieve.php">智能检索</a> <span class="divider"></span></li>-->
+<!--            <li class="active">新增-查询条件管理页面</li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--    <div class="column-title"><h2 class="f18">新增-查询条件管理页面</h2></div>-->
+
+
+    <div class="filter-area">
+        <div class="tab"><a href="retrieve.php" >快速检索</a><a href="people.php" >我的病人</a><a href="advanced-retrieve.php" class="on">高级检索</a></div>
+        <div class="block">
+            <div class="mb15">请选择需要查询条件</div>
+            <div class="tab-nav clearfix">
             <div class="tab-nav-left">
                 <ul>
                     <li class="activeTab" tabId="tab-nav-con1">病人基本信息</li>
@@ -118,6 +122,7 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="tab-list form-inline">
             <table width="100%">
                 <tbody id="qryConditonTb">
@@ -128,7 +133,7 @@
         <div class="tab-group form-inline">
             条件组合：<input type="text" class="form-control ml10" style="width: 400px"  />
         </div>
-        <div class="t-c pt40 pb40"><a class="btn btn-blue" id="step1Btn" href="add-result.html">下一步</a></div>
+        <div class="t-c pt40 pb40"><a class="btn btn-blue" id="step1Btn" href="advanced-retrieve-output.php">下一步</a></div>
     </div>
 </div>
 

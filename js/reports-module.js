@@ -76,6 +76,7 @@ $(document).ready(function () {
 				html += "<td>"+item.depart+"</td>";
 				html += "<td>"+item.time+"</td>";
 				html += "<td class='t-r'><a class='op js-detail' href='javascript:;' data-url='"+item.ids+"'  title='报表预览'></a>";
+				html += "<a class='op mod' href='javascript:;'></a>";
 				html += "<a class='op del js-del' href='javascript:;'></a>";
 				html += "</td>";
 				html += "</tr>";

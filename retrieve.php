@@ -34,17 +34,17 @@
             <div class="filter-box filter-bg">
                 <div class="form-inline">
                     <div class="form-group">
-                        <label for="search-time-range">时间范围</label>
+                        <label for="search-time-range">时间范围：</label>
                         <input id="search-time-range" class="form-control time"/>
                     </div>
                     <div class="form-group">
-                        <label for="search-data-range">数据范围</label>
+                        <label for="search-data-range">数据范围：</label>
                         <select id="search-data-range" class="form-control">
                             <option value="1">湘雅一院</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="search-room-range">科室选择</label>
+                        <label for="search-room-range">科室选择：</label>
                         <select id="search-room-range" class="form-control">
                             <option value="0">全部</option>
                             <option value="1">皮肤科</option>
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div class="task-list block">
         <table class="table table-striped" id="total-table">
             <thead>
             <tr>
@@ -82,7 +82,7 @@
                 <td>2016－04－04</td>
                 <td>甲</td>
                 <td class="t-r">
-                    <a class="op" href="../retrieve/EMPI.html?id=1" title="查看详情"></a>
+                    <a class="op" href="patient-detail.php?id=1" title="查看详情"></a>
                 </td>
             </tr>
             </tbody>

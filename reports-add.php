@@ -18,7 +18,7 @@
 		</ul>
 	</div>
 <!--   <div class="list-crumb"><a href="reports.php">报表内容管理</a> &gt; <em>新增报表内容</em></div>-->
-   	<div class="column-title"><h4 class="f18">新增报表内容</h4></div>
+<!--   	<div class="column-title"><h4 class="f18">新增报表内容</h4></div>-->
    	<div class="block clearfix nopadding">
    		<div class="c-info-box">
    			<div class="mb15"><h4 class="f16 c-555">报表基本信息</h4></div>
@@ -28,8 +28,8 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="row">
-							<div class="col-xs-6"><label>报表名称</label><input id="reportName" type="text" class="form-control w200" /></div>
-							<div class="col-xs-6"><label>报表分类</label>
+							<div class="col-xs-6"><label>报表名称：</label><input id="reportName" type="text" class="form-control w200" /></div>
+							<div class="col-xs-6"><label>报表分类：</label>
 								<select id="search-room-range" class="form-control w200">
 									<option value="0">常用</option>
 									<option value="1">心血管</option>
@@ -38,7 +38,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-xs-6"><label>备注信息</label><input id="remarkInfo" type="text" class="form-control w200" /></div>
+							<div class="col-xs-6"><label>备注信息：</label><input id="remarkInfo" type="text" class="form-control w200" /></div>
 						</div>
 					</div>
 				</div>

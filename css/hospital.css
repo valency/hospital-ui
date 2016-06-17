@@ -34,6 +34,7 @@ a, a:hover, a:visited {
     background-color: #eee;
     border-bottom: 1px solid #d3d3d3;
     height: 100px;
+    padding: 0 15px 0 30px;
 }
 
 .nav-block ul {
@@ -151,3 +152,24 @@ h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 .w200{width:200px;}
 .w250{width:250px;}
 .w350{width:350px;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.block{border:1px solid #ddd;margin-bottom:50px;padding:20px;}
+
+/*.op {*/
+    /*background: url(../img/task-op-icons.png) no-repeat;*/
+    /*display: inline-block;*/
+    /*height: 25px;*/
+    /*margin-left: 10px;*/
+    /*vertical-align: middle;*/
+    /*width: 25px;*/
+/*}*/
+
+/*.del {*/
+    /*background-position: -68px 0;*/
+/*}*/
+
+.mod {
+    background-position: -34px 0 !important;
+}

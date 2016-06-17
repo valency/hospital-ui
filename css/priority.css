@@ -40,7 +40,7 @@
     font-size: 14px;
     border: 1px solid #dbdad8;
     border-radius: 2px;
-    float: left;
+    float: inherit;
     margin-left: 10px;
 }
 
@@ -55,7 +55,7 @@
     display: inline-block;
     height: 32px;
     width: 1px;
-    float: left;
+    float: inherit;
     margin-left: 10px;
 }
 

@@ -11,7 +11,7 @@
 <!-- header -->
 
 <div class="main clearfix">
-                <div class="search-area">
+    <div class="search-area">
                     <form class="form-inline">
 <!--                    <div class="row">-->
 <!--                        <div class="col-xs-13">-->
@@ -39,14 +39,16 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <a class="btn" id="searchBtn">查询</a>
-                                    <div class="line"></div>
-                                    <a class="btn btn-blue add" href="reports-add.php">添加</a>
+                                    <div  style="float: left">
+                                        <a class="btn" id="searchBtn">查询</a>
+                                        <div class="line"></div>
+                                        <a class="btn btn-blue add" href="reports-add.php">添加</a>
+                                    </div>
                                 </div>
 
                      </form>
                 </div>
-	<div class="task-list">
+	<div class="block task-list">
         <table class="table table-striped" id="report-content-table">
             <thead>
                 <tr>
@@ -65,7 +67,7 @@
                             <td>2016-04-14</td>
                             <td class="t-r">
                                 <a class="op js-detail" href="javascript:;" data-url="ajax/view.html" title="报表预览"></a>
-                                <a class="op pause" href="#"></a>
+                                <a class="op" href="#"></a>
                                 <a class="op del js-del" href="javascript:;"></a>
                             </td>
                         </tr>
@@ -76,7 +78,7 @@
                             <td>2016-04-14</td>
                             <td class="t-r">
                                 <a class="op js-detail" href="javascript:;" data-url="ajax/view2.html"  title="报表预览"></a>
-                                <a class="op pause" href="#"></a>
+                                <a class="op" href="#"></a>
                                 <a class="op del js-del" href="javascript:;"></a>
                             </td>
                         </tr>

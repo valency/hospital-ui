@@ -17,13 +17,13 @@
 <!--                        <div class="col-xs-13">-->
 <!--                            <div class="row">-->
                                 <div class="form-group">
-                                    <label>报表名称</label><input type="text" class="form-control" id="report-name">
+                                    <label>报表名称：</label><input type="text" class="form-control" id="report-name">
                                 </div>
                                 <div class="form-group">
-                                    <label>创建时间</label> <input id="create-time" class="form-control time"/>
+                                    <label>创建时间：</label> <input id="create-time" class="form-control time"/>
                                 </div>
                                 <div class="form-group">
-                                    <label for="department">科室选择</label>
+                                    <label for="department">科室选择：</label>
                                     <select id="department" class="form-control">
                                         <option value="0">全部</option>
                                         <option value="1">皮肤科</option>
@@ -31,15 +31,17 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <a class="btn" id="searchBtn">查询</a>
-                                    <div class="line"></div>
-                                    <a class="btn btn-blue add" href="reports-add.php">添加</a>
+                                    <div  style="float: left">
+                                        <a class="btn" id="searchBtn">查询</a>
+                                        <div class="line"></div>
+                                        <a class="btn btn-blue add" href="reports-add.php">添加</a>
+                                    </div>
                                 </div>
 
 
                      </form>
                 </div>
-	<div class="task-list">
+	<div class="task-list block">
         <table class="table table-striped" id="report-content-table">
             <thead>
                 <tr>
@@ -58,7 +60,7 @@
                             <td>2016-04-14</td>
                             <td class="t-r">
                                 <a class="op js-detail" href="javascript:;" data-url="ajax/view.html" title="报表预览"></a>
-                                <a class="op pause" href="#"></a>
+                                <a class="op del" href="javascript:;"></a>
                                 <a class="op del js-del" href="javascript:;"></a>
                             </td>
                         </tr>
@@ -69,7 +71,7 @@
                             <td>2016-04-14</td>
                             <td class="t-r">
                                 <a class="op js-detail" href="javascript:;" data-url="ajax/view2.html"  title="报表预览"></a>
-                                <a class="op pause" href="#"></a>
+                                <a class="op mod" href="#"></a>
                                 <a class="op del js-del" href="javascript:;"></a>
                             </td>
                         </tr>
